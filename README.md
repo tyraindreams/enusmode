@@ -43,7 +43,7 @@ The following orthographies are supported without the use of dead keys:
  - Danish
  - Norwegian
  - Swedish
- - Finnish(with the exception of of the two rare Caron/Háček(ˇ) accented characters which are supported through dead keys)
+ - Finnish(with the exception of the two rare Caron/Háček(ˇ) accented characters which are supported through dead keys)
  - Dutch
  - German
 
