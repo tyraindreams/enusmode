@@ -1,0 +1,59 @@
+partial alphanumeric_keys
+xkb_symbols "usmode" {
+
+	include "us(basic)"
+	name[Group1]= "English (US, Modern Extended)";
+
+	key <AE01> { [ 1, U0021, U00a1, U00b9 ] }; 
+	key <AE02> { [ 2, U0040, U2122, U00b2 ] }; 
+	key <AE03> { [ 3, U0023, U00a3, U00b3 ] }; 
+	key <AE04> { [ 4, U0024, U20ac, U00a2 ] }; 
+	key <AE05> { [ 5, U0025, U00a5, U20bd ] }; 
+	key <AE06> { [ 6, U005e, U00bc, dead_circumflex ] }; 
+	key <AE07> { [ 7, U0026, U00bd, U00a9 ] }; 
+	key <AE08> { [ 8, U002a, U00be, U00ae ] }; 
+	key <AE09> { [ 9, U0028, U2018, U201c ] }; 
+	key <AE10> { [ 0, U0029, U2019, U201d ] }; 
+	key <AE11> { [ U002d, U005f, dead_abovering, dead_macron ] }; 
+	key <AE12> { [ U003d, U002b, U00d7, U00f7 ] }; 
+	key <AD01> { [ q, Q, U00e4, U00c4 ] }; 
+	key <AD02> { [ w, W, U00e5, U00c5 ] }; 
+	key <AD03> { [ e, E, U00e9, U00c9 ] }; 
+	key <AD04> { [ r, R, NoSymbol, NoSymbol ] }; 
+	key <AD05> { [ t, T, U00fe, U00de ] }; 
+	key <AD06> { [ y, Y, U00fd, U00dd ] }; 
+	key <AD07> { [ u, U, U00fa, U00da ] }; 
+	key <AD08> { [ i, I, U00ed, U00cd ] }; 
+	key <AD09> { [ o, O, U00f3, U00d3 ] }; 
+	key <AD10> { [ p, P, U00f8, U00d8 ] }; 
+	key <AD11> { [ U005b, U007b, U2039, U00ab ] }; 
+	key <AD12> { [ U005d, U007d, U203a, U00bb ] }; 
+	key <AC01> { [ a, A, U00e1, U00c1 ] }; 
+	key <AC02> { [ s, S, U00df, U1e9e ] }; 
+	key <AC03> { [ d, D, U00f0, U00d0 ] }; 
+	key <AC04> { [ f, F, NoSymbol, NoSymbol ] }; 
+	key <AC05> { [ g, G, NoSymbol, NoSymbol ] }; 
+	key <AC06> { [ h, H, NoSymbol, NoSymbol ] }; 
+	key <AC07> { [ j, J, U00fc, U00dc ] }; 
+	key <AC08> { [ k, K, U0153, U0152 ] }; 
+	key <AC09> { [ l, L, U00f6, U00d6 ] }; 
+	key <AC10> { [ U003b, U003a, U00b6, U00a7 ] }; 
+	key <AC11> { [ U0027, U0022, dead_acute, dead_doubleacute ] }; 
+	key <TLDE> { [ U0060, U007e, dead_grave, dead_tilde ] }; 
+	key <BKSL> { [ U005c, U007c, dead_ogonek, dead_diaeresis ] }; 
+	key <AB01> { [ z, Z, U00e6, U00c6 ] }; 
+	key <AB02> { [ x, X, NoSymbol, NoSymbol ] }; 
+	key <AB03> { [ c, C, U00e7, U00c7 ] }; 
+	key <AB04> { [ v, V, NoSymbol, NoSymbol ] }; 
+	key <AB05> { [ b, B, NoSymbol, NoSymbol ] }; 
+	key <AB06> { [ n, N, U00f1, U00d1 ] }; 
+	key <AB07> { [ m, M, U03bc, NoSymbol ] }; 
+	key <AB08> { [ U002c, U003c, dead_caron, dead_breve ] }; 
+	key <AB09> { [ U002e, U003e, dead_belowdot, dead_abovedot ] }; 
+	key <AB10> { [ U002f, U003f, U00bf, U00b0 ] }; 
+	key <SPCE> { [ U0020, U0020, U0020, U0020 ] }; 
+	key <LSGT> { [ U005c, U007c, NoSymbol, NoSymbol ] }; 
+	key <KPDL> { [ U002e, U002e, NoSymbol, NoSymbol ] }; 
+
+	include "level3(ralt_switch)"
+};
