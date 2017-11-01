@@ -14,7 +14,7 @@ New Characters:
  - Superscript: ¹ ² ³
  - Grammar: ¿ ¡
  - Fractions: ¼ ½ ¾
- - Qoutes: ‘’ “” ‹› «» ˝ '
+ - Quotes: ‘’ “” ‹› «» ˝ '
  - Intellectual Property: ™ © ®
  - Typography: ¶ §
 
